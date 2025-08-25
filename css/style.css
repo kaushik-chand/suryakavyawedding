@@ -987,6 +987,9 @@ h6 {
   .hero-title,
   .hero-title-names {
     font-size: 3.5rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
   }
 
   .section-title {
@@ -1000,7 +1003,13 @@ h6 {
   }
 
   .hero-title-names {
+    display: flex;
+    flex-direction: row;
     justify-content: center;
+    text-align: center;
+  }
+
+  .hero-description {
     text-align: center;
   }
   

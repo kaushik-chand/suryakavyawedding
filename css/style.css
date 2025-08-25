@@ -1112,7 +1112,7 @@ h6 {
   }
   
   .engagement-individual-image {
-    height: 280px;
+    height: auto;
     border-radius: 15px;
     width: 100%;
   }
@@ -1202,6 +1202,11 @@ h6 {
 
   .couple-names {
     font-size: 1.4rem;
+  }
+
+  .social-title {
+    text-align: center;
+    display: block;
   }
 }
 
